@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <ImageView
+        android:id="@+id/ivLogin"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/contact"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ivLogin"
+        android:text="Contact Us"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvSlogan"
+        android:text="Reach us at +91 6355380271"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvPhone"
+        android:text="Write us at rohit@google.com"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/option1"
+        android:title="Search"
+        android:iconTint="@color/white"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/option2"
+        android:title="Notify"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/option3"
+        android:title="Attendance"
+        android:icon="@drawable/ic_baseline_battery_unknown_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/option4"
+        android:title="My Marks"
+        android:icon="@drawable/ic_baseline_mark_as_unread_24"
+        app:showAsAction="never"/>
+
+</menu>

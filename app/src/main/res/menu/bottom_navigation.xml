@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_mobile"
+        android:icon="@drawable/ic_baseline_phone_android_24"
+        android:title="Android"/>
+
+    <item
+        android:id="@+id/nav_ml"
+        android:icon="@drawable/ic_baseline_desktop_mac_24"
+        android:title="ML"/>
+
+    <item
+        android:id="@+id/nav_dekr"
+        android:icon="@drawable/ic_baseline_data_saver_off_24"
+        android:title="@string/dekr"/>
+
+    <item
+        android:id="@+id/nav_nlp"
+        android:icon="@drawable/ic_baseline_language_24"
+        android:title="NLP"/>
+</menu>
